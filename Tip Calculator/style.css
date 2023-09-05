@@ -1,0 +1,104 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+}
+.error-el {
+  color: red;
+  font-size: 1.4rem;
+  margin-top: 2em;
+}
+.calculator-box {
+  padding: 1em 1em 3em;
+  background-color: #000;
+  max-width: 23em;
+  margin: 2em auto;
+  border-radius: 25px;
+  box-shadow: 1px 1px 7px #00000096;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: #000;
+  font-size: 3rem;
+}
+.calculator-btns-section {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.calculator-sum-btn {
+  border: 1px solid #000000;
+  background-color: #f4960a;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  width: 5em;
+  border-radius: 11px;
+}
+.reset-btn {
+  background-color: #fff;
+  border: 1px solid #f4960a;
+}
+.reset-btn:hover {
+  border: 1px solid #000000;
+  background-color: #f4960a;
+}
+.calculator-sum-btn:hover {
+  background-color: #fff;
+  border: 1px solid #f4960a;
+}
+.input-area-section {
+  margin-top: 2em;
+}
+.input-area-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-area-box-two {
+  margin-top: 1em;
+}
+input {
+  height: 2em;
+  width: 10.5em;
+  border: none;
+  padding: 0 0.5em;
+  margin-top: 1em;
+  color: #000;
+  border-radius: 11px;
+}
+
+.sum-el-label,
+label {
+  font-size: 1.4rem;
+}
+.sum-els {
+  font-size: 1.2rem;
+  margin-top: -0.5em;
+  padding: 0em 1em;
+  width: 10.5em;
+  height: 2.2em;
+  background-color: #fff;
+  border-radius: 11px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.calculator-sum-display-el-label {
+  margin-top: 1em;
+}

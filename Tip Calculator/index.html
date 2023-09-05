@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tip Calculator Pro</h1>
+      <p class="error-el" id="error-el"></p>
+    </header>
+    <main class="calculator-box">
+      <section class="input-area-section">
+        <div class="input-area-box">
+          <label for="bill-input-el">Enter Your Bill Amount</label>
+          <input type="text" id="bill-input-el" />
+        </div>
+        <div class="input-area-box input-area-box-two">
+          <label for="tip-percentage-input-el"
+            >Enter Your Tip Percentage
+          </label>
+          <input type="text" id="tip-percentage-input-el" />
+          <p class="sum-el-label">Tip Total</p>
+          <p class="tip-sum sum-els" id="tip-sum"></p>
+          <p class="calculator-sum-display-el-label sum-el-label">
+            Total Bill Including Tip
+          </p>
+          <p
+            class="calculator-sum-display-el sum-els"
+            id="calculator-sum-display-el"
+          ></p>
+        </div>
+      </section>
+      <section class="calculator-btns-section">
+        <button class="calculator-sum-btn btn" id="calculator-sum-btn">
+          =
+        </button>
+        <button id="reset-btn" class="reset-btn btn">C</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
